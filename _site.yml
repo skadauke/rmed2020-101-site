@@ -1,0 +1,12 @@
+name: "rmed2020-101-site"
+title: "R/Medicine 101: Intro to R for Clinicians"
+description: |
+  R/Medicine 101: Intro to R for Clinicians
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

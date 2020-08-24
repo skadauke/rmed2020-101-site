@@ -1,0 +1,62 @@
+---
+title: "R/Medicine 101: Intro to R for Clinicians"
+description: A gentle introduction to data science for healthcare professionals and clinical researchers.
+author:
+  - name: Stephan Kadauke
+    url: https://www.linkedin.com/in/skadauke/
+    affiliation: Children's Hospital of Philadelphia
+    affiliation_url: https://www.chop.edu
+  - name: Joseph Rudolf
+    url: https://healthcare.utah.edu/fad/mddetail.php?physicianID=u6005682&name=joseph-w-rudolf
+    affiliation: University of Utah
+    affiliation_url: https://healthcare.utah.edu/
+  - name: Amrom Obstfeld
+    url: https://www.chop.edu/doctors/obstfeld-amron
+    affiliation: Children's Hospital of Philadelphia
+    affiliation_url: https://www.chop.edu
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+## Welcome
+
+These are the materials for the [R/Medicine 2020](https://www.r-medicine.com) pre-workshop short course **101: Intro to R for Clinicians**. 
+
+Microphones will be muted during workshop main sessions. During breakout exercises you will be asked to interact with other learners. We encourage you to activate your video for the workshop, if you are comfortable.
+
+The entire workshop will be recorded and made available to registered R/Medicine 2020 conference partipants for a limited time. To protect the privacy of participants, no breakouts, video feeds, or chats will be recorded.
+
+## Pre-work
+
+### Essential
+
+- Install the latest version of [Zoom](https://zoom.us/download)
+- We will be using a training environment (RStudio Server) for interactive coding exercises that is accessible through a web browser. We recommend you use Google Chrome to access the training environment. Install the latest version of [Chrome](https://www.google.com/chrome/)
+- We want to provide a welcoming and supportive learning environment for everyone. To help us do so, please review the [code of conduct](https://events.linuxfoundation.org/r-medicine/attend/code-of-conduct/). 
+
+### Optional (but highly recommended)
+
+- To help us better understand our learners, please complete the [pre-course survey](https://bit.ly/rmed2020-101-pre). We appreciate it!
+- Install [R](https://cloud.r-project.org/) and [RStudio Desktop](https://rstudio.com/products/rstudio/download/) on your computer. We made a video with step by step instructions for installing on Mac or PC by following the links below:
+  - [macOS](https://www.youtube.com/watch?v=GM88tYlEy_g)
+  - [Windows](https://www.youtube.com/watch?v=JRKmZK5-6aE).
+
+## Resources
+
+- [GitHub repository with the most up-to-date materials for this workshop](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020)
+- [R for Data Science](https://r4ds.had.co.nz/) (by Hadley Wickham and Garrett Grolemund)
+  - [R for Data Science Solutions Manual](https://jrnold.github.io/r4ds-exercise-solutions/) (by Jeffrey Arnold)
+- [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) (by Yihui Xie, JJ Allaire, and Garrett Grolemund)
+- [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) (by Claus Wilke)
+- 
+
