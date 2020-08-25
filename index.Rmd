@@ -51,11 +51,27 @@ The entire course will be recorded and made available to registered R/Medicine 2
 
 - To help us better understand our learners, please complete the [pre-course survey](https://bit.ly/rmed2020-101-pre). We appreciate it!
 - Install [R](https://cloud.r-project.org/) and [RStudio Desktop](https://rstudio.com/products/rstudio/download/) on your computer. We made video with step by step instructions for installing these on macOS ([here](https://www.youtube.com/watch?v=GM88tYlEy_g)) or Windows ([here](https://www.youtube.com/watch?v=JRKmZK5-6aE)).
-- You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available [here](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020/tree/master/slides)
+- You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available [here](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020/tree/master/slides).
+
+## After the course
+
+If you would like to practice with the materials from the course, go to the [GitHub repository](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020), and click the green button labeled "Code" to download the repository as a .ZIP file. 
+
+To install all the packages we used in the training environment, open RStudio and run the following command in the Console: 
+
+```{r, eval = FALSE, echo = TRUE}
+install.packages(c(
+  "tidyverse",
+  "rmarkdown",
+  "shiny",
+  "flexdashboard",
+  "plotly",
+  "DT"
+))
+```
 
 ## Resources
 
-- [GitHub repository](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020) with the most up-to-date materials for this course
 - [R for Data Science](https://r4ds.had.co.nz/) (by Hadley Wickham and Garrett Grolemund)
   - [Solutions Manual](https://jrnold.github.io/r4ds-exercise-solutions/) (by Jeffrey Arnold)
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) (by Yihui Xie, JJ Allaire, and Garrett Grolemund)
