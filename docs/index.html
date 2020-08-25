@@ -1293,11 +1293,17 @@
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
+<a class="logo" href="https://www.r-medicine.com">
+<img src="images/rmedhex-white.png" alt="Logo"/>
+</a>
 <a href="index.html" class="title">R/Medicine 101: Intro to R for Clinicians</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<a href="about.html">About</a>
+<a href="https://www.r-medicine.com">R/Medicine 2020</a>
+<a href="https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020">
+<i class="fa fabb fa-github" aria-hidden="true"></i>
+</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -1322,37 +1328,56 @@
 </div>
 
 <div class="d-article">
-<h2 id="welcome">Welcome</h2>
-<p>These are the materials for the <a href="https://www.r-medicine.com">R/Medicine 2020</a> pre-workshop short course <strong>101: Intro to R for Clinicians</strong>.</p>
-<p>Microphones will be muted during workshop main sessions. During breakout exercises you will be asked to interact with other learners. We encourage you to activate your video for the workshop, if you are comfortable.</p>
-<p>The entire workshop will be recorded and made available to registered R/Medicine 2020 conference partipants for a limited time. To protect the privacy of participants, no breakouts, video feeds, or chats will be recorded.</p>
+<h3 class="d-toc-header">Table of Contents</h3>
+<nav class="d-toc" id="TOC">
+<ul>
+<li><a href="#welcome">Welcome!</a></li>
+<li><a href="#pre-work">Pre-work</a><ul>
+<li><a href="#essential">Essential</a></li>
+<li><a href="#optional-but-highly-recommended">Optional (but highly recommended)</a></li>
+</ul></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+</nav>
+<hr class="d-toc-separator"/>
+<h2 id="welcome">Welcome!</h2>
+<p>This is the website for the R/Medicine 2020 pre-conference short course <em>Introduction to R for Clinicians</em>.</p>
+<p>You’ll learn about <a href="https://rmarkdown.rstudio.com/">R Markdown</a>, a framework for reproducible data science, and how to perform essential data science tasks such as data import, visualization, transformation, and communication.</p>
+<p>For the best experience, if available to you, we suggest you use two monitors (or another two-screen setup such as a laptop and a tablet or two laptops). If you work at a healthcare institution, we also suggest to connect from a personal (not work-issued) laptop using a non-work wireless network in order to avoid issues caused by overzealous firewalls. We also suggest that you use either macOS or Windows. We highly recommend you use Google Chrome to access the RStudio Server training environment.</p>
+<p>The entire course will be recorded and made available to registered R/Medicine 2020 conference participants for replay. To protect the privacy of participants, no breakouts, video feeds, or chats will be recorded. We also request that you refrain from recording or screen-grabbing any part of the course.</p>
 <h2 id="pre-work">Pre-work</h2>
 <h3 id="essential">Essential</h3>
 <ul>
-<li>Install the latest version of <a href="https://zoom.us/download">Zoom</a></li>
-<li>We will be using a training environment (RStudio Server) for interactive coding exercises that is accessible through a web browser. We recommend you use Google Chrome to access the training environment. Install the latest version of <a href="https://www.google.com/chrome/">Chrome</a></li>
-<li>We want to provide a welcoming and supportive learning environment for everyone. To help us do so, please review the <a href="https://events.linuxfoundation.org/r-medicine/attend/code-of-conduct/">code of conduct</a>.</li>
+<li>Install the latest version of <a href="https://zoom.us/download">Zoom</a>.</li>
+<li>Install the latest version of <a href="https://www.google.com/chrome/">Google Chrome</a>.</li>
+<li>We may need to use RStudio Cloud as a backup training environment. Please sign up for a free account <a href="https://rstudio.cloud">here</a>.</li>
+<li>Join one of the two pre-course technology check sessions - details are in the pre-course email.</li>
+<li>We want to provide a welcoming and supportive learning environment for everyone. To help us do so, please take a look at our <a href="https://events.linuxfoundation.org/r-medicine/attend/code-of-conduct/">code of conduct</a>.</li>
 </ul>
 <h3 id="optional-but-highly-recommended">Optional (but highly recommended)</h3>
 <ul>
 <li>To help us better understand our learners, please complete the <a href="https://bit.ly/rmed2020-101-pre">pre-course survey</a>. We appreciate it!</li>
-<li>Install <a href="https://cloud.r-project.org/">R</a> and <a href="https://rstudio.com/products/rstudio/download/">RStudio Desktop</a> on your computer. We made a video with step by step instructions for installing on Mac or PC by following the links below:
+<li>Install <a href="https://cloud.r-project.org/">R</a> and <a href="https://rstudio.com/products/rstudio/download/">RStudio Desktop</a> on your computer. We made a video with step by step instructions for installing these on macOS or Windows:
 <ul>
 <li><a href="https://www.youtube.com/watch?v=GM88tYlEy_g">macOS</a></li>
 <li><a href="https://www.youtube.com/watch?v=JRKmZK5-6aE">Windows</a>.</li>
 </ul></li>
+<li>You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available <a href="https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020/tree/master/slides">here</a></li>
 </ul>
 <h2 id="resources">Resources</h2>
 <ul>
-<li><p><a href="https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020">GitHub repository with the most up-to-date materials for this workshop</a></p></li>
-<li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a> (by Hadley Wickham and Garrett Grolemund)</p>
+<li><a href="https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020">GitHub repository</a> with the most up-to-date materials for this course</li>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science</a> (by Hadley Wickham and Garrett Grolemund)
 <ul>
-<li><a href="https://jrnold.github.io/r4ds-exercise-solutions/">R for Data Science Solutions Manual</a> (by Jeffrey Arnold)</li>
+<li><a href="https://jrnold.github.io/r4ds-exercise-solutions/">Solutions Manual</a> (by Jeffrey Arnold)</li>
 </ul></li>
-<li><p><a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> (by Yihui Xie, JJ Allaire, and Garrett Grolemund)</p></li>
-<li><p><a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a> (by Claus Wilke)</p></li>
-<li></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide</a> (by Yihui Xie, JJ Allaire, and Garrett Grolemund)</li>
+<li><a href="https://clauswilke.com/dataviz/">Fundamentals of Data Visualization</a> (by Claus Wilke)</li>
+<li><a href="https://rstudio.com/resources/cheatsheets/">RStudio Cheatsheets</a></li>
 </ul>
+<h2 id="acknowledgments" class="appendix">Acknowledgments</h2>
+<p>This course draws from various sources, most notably Garrett Grolemund’s <a href="https://github.com/rstudio-education/welcome-to-the-tidyverse">Welcome to the Tidyverse</a> and Greg Wilson’s <a href="http://teachtogether.tech/en/">Teaching Tech Together</a>. The section of the course discussing dashboards was initially developed by Patrick Mathias.</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1367,6 +1392,10 @@
 <div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>© Copyright 2020 Stephan Kadauke</p>
+<p>All materials are licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Attribution-ShareAlike 4.0</a> License</p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
 
 </body>

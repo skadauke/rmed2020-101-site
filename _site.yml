@@ -4,9 +4,16 @@ description: |
   R/Medicine 101: Intro to R for Clinicians
 output_dir: "docs"
 navbar:
+  logo: 
+    image: images/rmedhex-white.png
+    href: https://www.r-medicine.com
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-output: distill::distill_article
+    - text: "R/Medicine 2020"
+      href: https://www.r-medicine.com
+    - icon: fabb fa-github
+      href: https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020
+output: 
+  distill::distill_article:
+    toc: true
