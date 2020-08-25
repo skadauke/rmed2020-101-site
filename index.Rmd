@@ -50,9 +50,7 @@ The entire course will be recorded and made available to registered R/Medicine 2
 ### Optional (but highly recommended)
 
 - To help us better understand our learners, please complete the [pre-course survey](https://bit.ly/rmed2020-101-pre). We appreciate it!
-- Install [R](https://cloud.r-project.org/) and [RStudio Desktop](https://rstudio.com/products/rstudio/download/) on your computer. We made a video with step by step instructions for installing these on macOS or Windows:
-  - [macOS](https://www.youtube.com/watch?v=GM88tYlEy_g)
-  - [Windows](https://www.youtube.com/watch?v=JRKmZK5-6aE).
+- Install [R](https://cloud.r-project.org/) and [RStudio Desktop](https://rstudio.com/products/rstudio/download/) on your computer. We made video with step by step instructions for installing these on macOS ([here](https://www.youtube.com/watch?v=GM88tYlEy_g)) or Windows ([here](https://www.youtube.com/watch?v=JRKmZK5-6aE)).
 - You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available [here](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020/tree/master/slides)
 
 ## Resources
@@ -66,4 +64,4 @@ The entire course will be recorded and made available to registered R/Medicine 2
 
 ## Acknowledgments {.appendix}
 
-This course draws from various sources, most notably Garrett Grolemund's [Welcome to the Tidyverse](https://github.com/rstudio-education/welcome-to-the-tidyverse) and Greg Wilson's [Teaching Tech Together](http://teachtogether.tech/en/). The section of the course discussing dashboards was initially developed by Patrick Mathias. 
+This course draws from various sources, most notably Garrett Grolemund's [Welcome to the Tidyverse](https://github.com/rstudio-education/welcome-to-the-tidyverse) and Greg Wilson's [Teaching Tech Together](http://teachtogether.tech/en/). The section of the course discussing dashboards was initially developed by Patrick Mathias. This site uses the [distill](https://rstudio.github.io/distill/) package.
